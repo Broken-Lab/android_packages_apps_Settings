@@ -118,6 +118,10 @@ android_app {
     },
 }
 
+    resource_dirs: [
+                   "TouchGestures/res"
+    ],
+
 android_library_import {
     name: "contextualcards",
     aars: ["libs/contextualcards.aar"],
